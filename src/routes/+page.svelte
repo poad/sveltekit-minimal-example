@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import { counter, decrement, increment } from '../store/counter';
+</script>
+
+<button on:click={() => decrement()}>-</button>
+<input type="number" bind:value={$counter} />
+<button on:click={() => increment()}>+</button>
