@@ -1,0 +1,51 @@
+name: Build and Test
+ 
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:    
+    - main 
+
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: pnpm/action-setup@v2
+      name: Install pnpm
+      id: pnpm-install
+      with:
+        version: latest
+        run_install: |
+          - recursive: true
+            args: [--no-frozen-lockfile]
+
+    - name: Use Node.js 20.x
+      uses: actions/setup-node@v3.8.1
+      with:
+        node-version: 20.x
+        check-latest: true
+
+    - name: build
+      run: pnpm build
+  
+  configure:
+    runs-on: ubuntu-latest
+
+    if: github.actor != 'dependabot[bot]'
+
+    steps:
+    - name: Pull request auto merge enabler
+      if: github.event_name == 'pull_request'
+      uses: poad/github-pull-request-auto-merge-enable-action@v1.0.5
+      with:
+        pull_request_number: ${{ github.event.pull_request.number }}
+        github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+        repository: ${{ github.event.repository.name }}
+        owner: ${{ github.repository_owner }}
+        merge_method: SQUASH
