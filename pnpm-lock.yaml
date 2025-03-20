@@ -33,11 +33,11 @@ importers:
         specifier: ^10.1.1
         version: 10.1.1(eslint@9.22.0)
       eslint-plugin-svelte:
-        specifier: ^3.3.2
-        version: 3.3.2(eslint@9.22.0)(svelte@5.23.2)
+        specifier: ^3.3.3
+        version: 3.3.3(eslint@9.22.0)(svelte@5.23.2)
       pnpm:
-        specifier: ^10.6.4
-        version: 10.6.4
+        specifier: ^10.6.5
+        version: 10.6.5
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -687,8 +687,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-svelte@3.3.2:
-    resolution: {integrity: sha512-b2IJ2w0hJw5M3mj4aBLc6Gk6nMG3LFecUuPYV628G8Je/8ewJb80LR8fwTX9gOlqykTBNM18IGL7Hkz8K+WLkQ==}
+  eslint-plugin-svelte@3.3.3:
+    resolution: {integrity: sha512-imzGqIgWbfsb/CR14d3k3M8MiVNGet+l9mjPhvo1Rm0Nxi0rNn4/eELqyR8FWlgKBMlGkOp2kshRJm0xpxNfHQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.1 || ^9.0.0
@@ -986,8 +986,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  pnpm@10.6.4:
-    resolution: {integrity: sha512-2j1xW/0iqaEF5ugIjPx4JmmTMt7WDEI7FOxhOhhfFgIgZwL/D+TEOMsVyXkIHOTLAlaONksVF0UDpjx6jipfbA==}
+  pnpm@10.6.5:
+    resolution: {integrity: sha512-zfko/KIIMs1Z7FOCZJK33CXcUk1DcLa0rb9lgD0y76psHIgUfArk6NV5psnuxxV1e1DU+jXuoXnYaOraTtBDrw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1836,7 +1836,7 @@ snapshots:
     dependencies:
       eslint: 9.22.0
 
-  eslint-plugin-svelte@3.3.2(eslint@9.22.0)(svelte@5.23.2):
+  eslint-plugin-svelte@3.3.3(eslint@9.22.0)(svelte@5.23.2):
     dependencies:
       '@eslint-community/eslint-utils': 4.5.1(eslint@9.22.0)
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -2123,7 +2123,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.2
 
-  pnpm@10.6.4: {}
+  pnpm@10.6.5: {}
 
   postcss-load-config@3.1.4(postcss@8.5.3):
     dependencies:
