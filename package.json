@@ -21,7 +21,7 @@
 		"@sveltejs/adapter-auto": "^6.0.1",
 		"@sveltejs/kit": "^2.21.1",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
-		"eslint": "^9.26.0",
+		"eslint": "^9.28.0",
 		"eslint-config-prettier": "^10.1.5",
 		"eslint-plugin-svelte": "^3.9.0",
 		"pnpm": "^10.11.0",
