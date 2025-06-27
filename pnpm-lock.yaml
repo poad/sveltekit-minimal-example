@@ -33,17 +33,17 @@ importers:
         specifier: ^10.1.5
         version: 10.1.5(eslint@9.29.0)
       eslint-plugin-svelte:
-        specifier: ^3.9.3
-        version: 3.9.3(eslint@9.29.0)(svelte@5.34.8)
+        specifier: ^3.10.1
+        version: 3.10.1(eslint@9.29.0)(svelte@5.34.8)
       pnpm:
-        specifier: ^10.12.3
-        version: 10.12.3
+        specifier: ^10.12.4
+        version: 10.12.4
       prettier:
-        specifier: ^3.6.1
-        version: 3.6.1
+        specifier: ^3.6.2
+        version: 3.6.2
       prettier-plugin-svelte:
         specifier: ^3.4.0
-        version: 3.4.0(prettier@3.6.1)(svelte@5.34.8)
+        version: 3.4.0(prettier@3.6.2)(svelte@5.34.8)
       svelte:
         specifier: ^5.34.8
         version: 5.34.8
@@ -708,8 +708,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-svelte@3.9.3:
-    resolution: {integrity: sha512-PlcyK80sqAZ43IITeZkgl3zPFWJytx/Joup9iKGqIOsXM2m3pWfPbWuXPr5PN3loXFEypqTY/JyZwNqlSpSvRw==}
+  eslint-plugin-svelte@3.10.1:
+    resolution: {integrity: sha512-csCh2x0ge/DugXC7dCANh46Igi7bjMZEy6rHZCdS13AoGVJSu7a90Kru3I8oMYLGEemPRE1hQXadxvRPVMAAXQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.1 || ^9.0.0
@@ -1019,8 +1019,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  pnpm@10.12.3:
-    resolution: {integrity: sha512-Rn3yxYYFYWVYCtbftUzqrZTFow+AiT697FpExapzwgWuSlu51e1ruE6nwkns54ZkK7tJ0GowffIY0D2kHDF0Fw==}
+  pnpm@10.12.4:
+    resolution: {integrity: sha512-Xqiw3u2U7WhpHJutTJVUknBcXuuKh++GvGLHSiawN7CP+VcPEIsuTb0d0akYb+qSXlJ/FBxkjoWvRWMQdGgBhA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1066,8 +1066,8 @@ packages:
       prettier: ^3.0.0
       svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
 
-  prettier@3.6.1:
-    resolution: {integrity: sha512-5xGWRa90Sp2+x1dQtNpIpeOQpTDBs9cZDmA/qs2vDNN2i18PdapqY7CmBeyLlMuGqXJRIOPaCaVZTLNQRWUH/A==}
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1902,7 +1902,7 @@ snapshots:
     dependencies:
       eslint: 9.29.0
 
-  eslint-plugin-svelte@3.9.3(eslint@9.29.0)(svelte@5.34.8):
+  eslint-plugin-svelte@3.10.1(eslint@9.29.0)(svelte@5.34.8):
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.29.0)
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -2197,7 +2197,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.2
 
-  pnpm@10.12.3: {}
+  pnpm@10.12.4: {}
 
   postcss-load-config@3.1.4(postcss@8.5.6):
     dependencies:
@@ -2227,12 +2227,12 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-svelte@3.4.0(prettier@3.6.1)(svelte@5.34.8):
+  prettier-plugin-svelte@3.4.0(prettier@3.6.2)(svelte@5.34.8):
     dependencies:
-      prettier: 3.6.1
+      prettier: 3.6.2
       svelte: 5.34.8
 
-  prettier@3.6.1: {}
+  prettier@3.6.2: {}
 
   punycode@2.3.1: {}
 
