@@ -21,7 +21,7 @@
 		"@sveltejs/adapter-auto": "^6.1.0",
 		"@sveltejs/kit": "^2.42.2",
 		"@sveltejs/vite-plugin-svelte": "^6.2.0",
-		"eslint": "^9.35.0",
+		"eslint": "^9.36.0",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.12.3",
 		"pnpm": "^10.17.0",
@@ -37,7 +37,7 @@
 		"vitest": "^3.2.4"
 	},
 	"type": "module",
-	"packageManager": "pnpm@10.16.1",
+	"packageManager": "pnpm@10.17.0",
 	"pnpm": {
 		"overrides": {
 			"esbuild": ">=0.25.0",
