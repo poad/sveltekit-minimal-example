@@ -37,8 +37,8 @@ importers:
         specifier: ^3.12.4
         version: 3.12.4(eslint@9.37.0)(svelte@5.39.12)
       pnpm:
-        specifier: ^10.18.2
-        version: 10.18.2
+        specifier: ^10.18.3
+        version: 10.18.3
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -1030,8 +1030,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  pnpm@10.18.2:
-    resolution: {integrity: sha512-n7lp+nSbOt5gNeDxCfC4pgtdCKGof99y4zfakNzJMzbiKAyk5E8jWKZJuDwXlZ6Zk+d3wggIefOAHm8NmZrT3Q==}
+  pnpm@10.18.3:
+    resolution: {integrity: sha512-u9FubXKG/X4B9rPAs8kyzaKWXAapCDKPdGY/EKmupR8RKe6mFRNL+ZKDGwCeq+Fn7LcAi1l/QP+bx1lGqt+wjQ==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1143,8 +1143,8 @@ packages:
   stackback@0.0.2:
     resolution: {integrity: sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==}
 
-  std-env@3.9.0:
-    resolution: {integrity: sha512-UGvjygr6F6tpH7o2qyqR6QYpwraIjKSdtzyBdyytFOHmPZY917kwdwLG0RbOjWOnKmnm3PeHjaoLLMie7kPLQw==}
+  std-env@3.10.0:
+    resolution: {integrity: sha512-5GS12FdOZNliM5mAOxFRg7Ir0pWz8MdpYm6AY6VPkGpbA7ZzmbzNcBJQ0GPvvyWgcY7QAhCgf9Uy89I03faLkg==}
 
   strip-json-comments@3.1.1:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
@@ -2215,7 +2215,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.2
 
-  pnpm@10.18.2: {}
+  pnpm@10.18.3: {}
 
   postcss-load-config@3.1.4(postcss@8.5.6):
     dependencies:
@@ -2320,7 +2320,7 @@ snapshots:
 
   stackback@0.0.2: {}
 
-  std-env@3.9.0: {}
+  std-env@3.10.0: {}
 
   strip-json-comments@3.1.1: {}
 
@@ -2474,7 +2474,7 @@ snapshots:
       magic-string: 0.30.19
       pathe: 2.0.3
       picomatch: 4.0.3
-      std-env: 3.9.0
+      std-env: 3.10.0
       tinybench: 2.9.0
       tinyexec: 0.3.2
       tinyglobby: 0.2.15
