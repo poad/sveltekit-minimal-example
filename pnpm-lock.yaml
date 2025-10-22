@@ -37,8 +37,8 @@ importers:
         specifier: ^3.12.5
         version: 3.12.5(eslint@9.38.0)(svelte@5.41.1)
       pnpm:
-        specifier: ^10.18.3
-        version: 10.18.3
+        specifier: ^10.19.0
+        version: 10.19.0
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -697,8 +697,8 @@ packages:
     resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
 
-  devalue@5.4.1:
-    resolution: {integrity: sha512-YtoaOfsqjbZQKGIMRYDWKjUmSB4VJ/RElB+bXZawQAQYAo4xu08GKTMVlsZDTF6R2MbAgjcAQRPI5eIyRAT2OQ==}
+  devalue@5.4.2:
+    resolution: {integrity: sha512-MwPZTKEPK2k8Qgfmqrd48ZKVvzSQjgW0lXLxiIBA8dQjtf/6mw6pggHNLcyDKyf+fI6eXxlQwPsfaCMTU5U+Bw==}
 
   es-module-lexer@1.7.0:
     resolution: {integrity: sha512-jEQoCwk8hyb2AZziIOLhDqpm5+2ww5uIE6lkO/6jcOCusfk6LhMHpXXfBLXTZ7Ydyt0j4VoUQv6uGNYbdW+kBA==}
@@ -1030,8 +1030,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  pnpm@10.18.3:
-    resolution: {integrity: sha512-u9FubXKG/X4B9rPAs8kyzaKWXAapCDKPdGY/EKmupR8RKe6mFRNL+ZKDGwCeq+Fn7LcAi1l/QP+bx1lGqt+wjQ==}
+  pnpm@10.19.0:
+    resolution: {integrity: sha512-yfxyNukq31yK9C/VvxYS35nCzrYvJwRwMvRyCzP46s3eMRhl6RxBHyd09hjYLzIICOy1Fxi/qCwGDEunx2oyuA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1609,7 +1609,7 @@ snapshots:
       '@types/cookie': 0.6.0
       acorn: 8.15.0
       cookie: 1.0.2
-      devalue: 5.4.1
+      devalue: 5.4.2
       esm-env: 1.2.2
       kleur: 4.1.5
       magic-string: 0.30.19
@@ -1882,7 +1882,7 @@ snapshots:
 
   deepmerge@4.3.1: {}
 
-  devalue@5.4.1: {}
+  devalue@5.4.2: {}
 
   es-module-lexer@1.7.0: {}
 
@@ -2215,7 +2215,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.2
 
-  pnpm@10.18.3: {}
+  pnpm@10.19.0: {}
 
   postcss-load-config@3.1.4(postcss@8.5.6):
     dependencies:
