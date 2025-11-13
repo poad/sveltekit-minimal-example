@@ -24,7 +24,7 @@
 		"eslint": "^9.39.1",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.13.0",
-		"pnpm": "^10.21.0",
+		"pnpm": "^10.22.0",
 		"prettier": "^3.6.2",
 		"prettier-plugin-svelte": "^3.4.0",
 		"svelte": "^5.43.6",
