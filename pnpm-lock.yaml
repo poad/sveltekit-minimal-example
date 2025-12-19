@@ -37,8 +37,8 @@ importers:
         specifier: ^3.13.1
         version: 3.13.1(eslint@9.39.2)(svelte@5.46.0)
       pnpm:
-        specifier: ^10.26.0
-        version: 10.26.0
+        specifier: ^10.26.1
+        version: 10.26.1
       prettier:
         specifier: ^3.7.4
         version: 3.7.4
@@ -965,8 +965,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  pnpm@10.26.0:
-    resolution: {integrity: sha512-Oz9scl6+cSUGwKsa1BM8+GsfS2h+/85iqbOLTXLjlUJC5kMZD8UfoWQpScc19APevUT1yw7dZXq+Y6i2p+HkAg==}
+  pnpm@10.26.1:
+    resolution: {integrity: sha512-ZkB0q8Nn0skyT9wYA3CXzgqPEmA0Fg9wmSjp6fldmHFDRwROXDFk1lvV2mxZxr42KxB1Rikqjuy3mZGW5c5Y+g==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2061,7 +2061,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.2
 
-  pnpm@10.26.0: {}
+  pnpm@10.26.1: {}
 
   postcss-load-config@3.1.4(postcss@8.5.6):
     dependencies:
