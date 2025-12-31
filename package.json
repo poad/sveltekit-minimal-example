@@ -24,7 +24,7 @@
 		"eslint": "^9.39.2",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.13.1",
-		"pnpm": "^10.26.2",
+		"pnpm": "^10.27.0",
 		"prettier": "^3.7.4",
 		"prettier-plugin-svelte": "^3.4.1",
 		"svelte": "^5.46.1",
@@ -37,7 +37,7 @@
 		"vitest": "^4.0.16"
 	},
 	"type": "module",
-	"packageManager": "pnpm@10.26.1",
+	"packageManager": "pnpm@10.27.0",
 	"pnpm": {
 		"overrides": {
 			"esbuild": ">=0.25.0",
