@@ -37,7 +37,7 @@
 		"vitest": "^4.0.18"
 	},
 	"type": "module",
-	"packageManager": "pnpm@10.28.1",
+	"packageManager": "pnpm@10.28.2",
 	"pnpm": {
 		"overrides": {
 			"esbuild": ">=0.25.0",
