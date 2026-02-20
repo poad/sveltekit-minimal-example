@@ -1,5 +1,5 @@
 import { defineConfig } from 'eslint/config';
-import {parser} from 'typescript-eslint';
+import { parser } from 'typescript-eslint';
 import eslintPluginSvelte from 'eslint-plugin-svelte';
 import * as svelteParser from 'svelte-eslint-parser';
 import svelteConfig from './svelte.config.js';

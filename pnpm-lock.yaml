@@ -39,7 +39,7 @@ importers:
         specifier: ^6.2.4
         version: 6.2.4(svelte@5.53.0)(vite@7.3.1(jiti@2.6.1))
       eslint:
-        specifier: '>=10'
+        specifier: ^10.0.0
         version: 10.0.0(jiti@2.6.1)
       eslint-config-prettier:
         specifier: ^10.1.8
@@ -51,8 +51,8 @@ importers:
         specifier: ^2.6.1
         version: 2.6.1
       pnpm:
-        specifier: ^10.30.0
-        version: 10.30.0
+        specifier: ^10.30.1
+        version: 10.30.1
       prettier:
         specifier: ^3.8.1
         version: 3.8.1
@@ -78,10 +78,10 @@ importers:
         specifier: ^8.56.0
         version: 8.56.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)
       vite:
-        specifier: ^7.3.0
+        specifier: ^7.3.1
         version: 7.3.1(jiti@2.6.1)
       vitest:
-        specifier: ^4.0.16
+        specifier: ^4.0.18
         version: 4.0.18(jiti@2.6.1)
 
 packages:
@@ -978,8 +978,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  pnpm@10.30.0:
-    resolution: {integrity: sha512-K1dT3gFdSA7riPW1th4AUfBbQwGAioLsi4QMnSrfd0jrNSyD9cFZPKcD/xAXKVvD/dMRmruWhu/Ja5/LGCAJNw==}
+  pnpm@10.30.1:
+    resolution: {integrity: sha512-NZDlUNU4TKo5vVx8c59yJwI0svYFnhMBj5dcMTseuf78wJcUBIdl1Nnv6WE4LDEuYkVywEIHYr3F1ZQM35vnOg==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2028,7 +2028,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.2
 
-  pnpm@10.30.0: {}
+  pnpm@10.30.1: {}
 
   postcss-load-config@3.1.4(postcss@8.5.6):
     dependencies:
