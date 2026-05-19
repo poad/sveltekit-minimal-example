@@ -1,5 +1,7 @@
 allowBuilds:
   esbuild: false
+minimumReleaseAgeExclude:
+  - svelte@5.55.8
 overrides:
   '@eslint/eslintrc>ajv': ^6.12.4
   '@eslint/js': '>=10'
