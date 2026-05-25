@@ -40,7 +40,7 @@ importers:
         specifier: ^7.1.2
         version: 7.1.2(svelte@5.55.9(@typescript-eslint/types@8.59.4))(vite@7.3.3(jiti@2.7.0))
       eslint:
-        specifier: ^10.4.0
+        specifier: '>=10'
         version: 10.4.0(jiti@2.7.0)
       eslint-config-prettier:
         specifier: ^10.1.8
@@ -76,10 +76,10 @@ importers:
         specifier: ^8.59.4
         version: 8.59.4(eslint@10.4.0(jiti@2.7.0))(typescript@6.0.3)
       vite:
-        specifier: ^7.3.3
+        specifier: ^7.3.0
         version: 7.3.3(jiti@2.7.0)
       vitest:
-        specifier: ^4.1.7
+        specifier: ^4.0.16
         version: 4.1.7(vite@7.3.3(jiti@2.7.0))
 
 packages:
