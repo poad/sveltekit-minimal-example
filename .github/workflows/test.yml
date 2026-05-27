@@ -31,10 +31,8 @@ jobs:
             - recursive: true
               args: [--no-frozen-lockfile]
 
-      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
-
       - name: lint
-        run: bun run lint
+        run: pnpm lint
 
       - name: build
-        run: bun run --bun build
+        run: pnpm build
